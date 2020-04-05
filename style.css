@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fjalla+One&display=swap');
 
 .header {
     width: auto;
@@ -7,7 +7,7 @@
     text-align: center;
     align-items: center;
     border: solid 1px ;
-    background-image: url("./images/letters_code_green_122913_1920x1080.jpg");
+    background-image: url("./images/2c1f3178b6a8c66276d64cdaf3dbe1b1.jpg");
 }
 .header h1{
     font-family: 'Alfa Slab One', cursive;
@@ -41,7 +41,23 @@
     display: flex;
     float: left;
     position: fixed;
-    right: 0;
-    top: 290px;
+    right: 50px;
+    top: 289px;
     border-bottom: solid 1px;
+}
+.menu{
+    width: 1000px;
+    height: 70px;
+    display: flex;
+    border-left: auto;
+    border-right: auto;
+    position: relative;
+    margin: auto;
+    justify-content: space-between;
+}
+.menu h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+   
+    
 }
