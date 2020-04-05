@@ -9,7 +9,7 @@
     border: solid 1px ;
     background-image: url("./images/letters_code_green_122913_1920x1080.jpg");
 }
-h1{
+.header h1{
     font-family: 'Alfa Slab One', cursive;
     font-size: 150px;
 }
@@ -26,12 +26,7 @@ h1{
     margin: auto;
     font-size: 100px;
 }
-.fab{
-    display: flex;
-    width: 50px;
-    height: 50px;
-    z-index: 5;
-}
+
 
 .label-input{
     display: flex;
@@ -39,8 +34,14 @@ h1{
     margin : 8px;
     z-index: 10;
 }
-.test{
-    width: auto;
-    height: 300px;
-    justify-items: center;
+.icon{
+    background-color: white;
+    width: 100px;
+    height: 50px;   
+    display: flex;
+    float: left;
+    position: fixed;
+    right: 0;
+    top: 290px;
+    border-bottom: solid 1px;
 }
