@@ -1,0 +1,3 @@
+Brain Icon = <i class="fas fa-brain"></i>
+linkedin = <i class="fab fa-linkedin-in"></i>
+github = <i class="fab fa-github"></i>
